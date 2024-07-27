@@ -1,0 +1,53 @@
+/* ShopList.module.css */
+.shopListContainer {
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.pageTitle {
+  color: #ffffff;
+  background-color: #7c3b9f; /* Dark grey background color for the header */
+  padding: 30px; /* Add padding to the header */
+  border-radius: 30px;
+  
+}
+
+.searchInput {
+  width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  background-color: #7c3b9f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #e6ccff;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+/* If you want lavender accents in the background */
+.shopListContainer {
+  background-color: #f5e6ff; /* Lavender background */
+  padding: 20px; /* Adjust padding for content */
+  height: 100%;
+  width:100%;
+}

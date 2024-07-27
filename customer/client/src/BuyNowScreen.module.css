@@ -1,0 +1,139 @@
+body {
+  background-color: #f5e6ff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #f5e6ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.productDisplay {
+  display: flex;
+  gap: 40px;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.detailsContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productName {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.productDescription {
+  font-size: 1rem;
+  color: #666;
+}
+
+.productPrice {
+  font-size: 1.5rem;
+  color: #7424dd;
+}
+
+.quantityCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%; /* Adjust the height as needed */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.quantityCounter button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #7c3b9f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 100%; /* Make the button fill the height of the counter */
+}
+
+.quantityCounter button:hover {
+  background-color: #5a2878;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.buyButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #7c3b9f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background-color: #5a2878;
+}
+
+.cartButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5a2878;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cartButton:hover {
+  background-color: #5a2878;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}

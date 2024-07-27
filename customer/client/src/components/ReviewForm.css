@@ -1,0 +1,70 @@
+.review-form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff; /* White background */
+  padding: 30px; /* Increased padding */
+  border-radius: 20px; /* Increased border radius */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Lighter shadow */
+  width: 400px; /* Increased width */
+}
+
+.review-form-container p {
+  text-align: center;
+  font-size: 16px; /* Increased font size */
+  font-weight: 600;
+  color: #7c3b9f; /* Lavender text color */
+  padding: 15px 0; /* Increased padding */
+}
+
+.review-form-container input {
+  display: block;
+  width: 90%; /* Increased width */
+  height: 50px; /* Increased height */
+  margin: 15px auto; /* Increased margin */
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 8px; /* Slightly increased border radius */
+  padding: 0 15px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+  color: #333; /* Darker text color */
+}
+
+.review-form-container button {
+  background-color: #7c3b9f; /* Dark purple color for button */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  border-radius: 10px; /* Slightly increased border radius */
+  padding: 15px 30px; /* Increased padding */
+  border: none;
+  margin-top: 30px; /* Increased margin */
+  width: 100%;
+}
+
+/* Close button styles */
+.close-btn {
+  position: absolute;
+  top: 15px; /* Adjusted top position */
+  right: 15px; /* Adjusted right position */
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 20px; /* Increased font size */
+  color: #ccc;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.close-btn:hover {
+  color: #000; /* Darker color on hover */
+}
+
+/* Image preview styles */
+.preview-image {
+  max-width: 100%;
+  max-height: 200px; /* Adjust as needed */
+  display: block;
+  margin: 10px auto; /* Centered the image */
+  object-fit: contain; /* This will ensure the aspect ratio is maintained */
+}

@@ -1,0 +1,76 @@
+/* Card.module.css */
+.card {
+  background-color: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #7c3b9f;
+  padding: 20px; /* Increased padding */
+  margin-bottom: 16px;
+  border: 1px solid #ddd; /* Grey border */
+  transition: transform 0.3s ease;
+  position: relative; /* Ensure z-index works */
+  overflow: hidden;
+  margin: 10px; /* Add margin around each card */
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #e6ccff, #f5e6ff); /* Lavender gradient */
+  z-index: -1;
+  transition: opacity 0.5s ease;
+  opacity: 0.8;
+}
+
+.card:hover:before {
+  opacity: 1;
+}
+.card:visited {
+  background-color: #f5e6ff; /* Light purple background for visited state */
+}
+.card:active {
+  background-color: #f5e6ff; /* Light lavender background for active state */
+}
+.card-header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.category {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  padding: 12px 0;
+}
+
+.address,
+.mobile {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Additional style for shop ID */
+.ID {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Adjust margins and padding as needed */

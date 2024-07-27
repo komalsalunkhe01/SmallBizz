@@ -1,0 +1,90 @@
+/* Profile container */
+.profile-container {
+    width: 90%; /* Width adjusted for responsiveness */
+    max-width: 600px; /* Maximum width */
+    background-color: #fff; /* White background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 30px; /* Padding around content */
+    text-align: center; /* Center align text */
+    font-family: 'Roboto', sans-serif; /* Roboto font for consistency */
+    position: absolute; /* Position absolute for centering */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+}
+
+
+/* Profile header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Avatar styles */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0, 123, 255, 0.2); /* Light blue background for initials */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px; /* Larger font size for initials */
+    color: #007bff; /* Blue color for initials */
+    margin-right: 20px;
+    overflow: hidden;
+    border: 5px solid #fff; /* White border */
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; /* Ensure rounded corners for image */
+}
+
+/* Initials styles */
+.initials {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Profile info styles */
+.profile-info {
+    text-align: left;
+    margin-bottom: 20px; /* Space below profile info */
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; /* Dark color for headings */
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #555; /* Medium-dark color for text */
+}
+
+/* Profile details styles */
+.profile-details {
+    text-align: left;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #666; /* Medium color for details */
+}
+
+/* Error and loading messages */
+.error, .loading {
+    color: red; /* Red color for errors */
+    text-align: center;
+    margin-top: 20px; /* Space above messages */
+}

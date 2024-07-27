@@ -1,0 +1,91 @@
+.container {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#7c3b9f; /* Dark purple color */
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar button {
+  background-color: white; /* Dark purple color */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.navbar button:hover {
+  transform: translateY(-3px); /* 3D lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust card size */
+  gap: 20px; /* Add gap between cards */
+  margin-top: 20px;
+}
+
+.productCard {
+  background-color: #d0c3f1; /* Lavender background color for cards */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.productCard:hover {
+  transform: translateY(-10px); /* 3D lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.productCard img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper spacing */
+  margin: 0 auto 10px; /* Add space below image */
+}
+
+.productCard h3 {
+  color: #fff; /* White text color */
+  background-color: #7c3b9f; /* Dark purple background color for heading */
+  padding: 12px; /* Add padding to heading */
+  border-top-left-radius: 8px; /* Rounded corners for top left and right of heading */
+  border-top-right-radius: 8px;
+  margin: 0 -20px 20px -20px; /* Negative margin to overlap */
+  text-align: center; /* Center align the title */
+}
+
+.productCard p {
+  margin: 10px 0; /* Add margin for paragraphs */
+  color: #7c3b9f; /* Dark purple text color */
+  text-align: center; /* Center align paragraphs */
+  overflow: hidden; /* Hide overflow text */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit number of lines */
+  -webkit-box-orient: vertical;
+  height: 3.6em; /* Adjust height to display three lines of text */
+}
+
+.productCard:hover p {
+  height: auto; /* Show full description on hover */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
