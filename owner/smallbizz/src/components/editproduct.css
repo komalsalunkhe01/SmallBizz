@@ -1,0 +1,95 @@
+.add-product-container {
+    max-width: 600px;
+    margin-left: 450px;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    /* Blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff;
+    /* Light background */
+    position: relative;
+    /* Positioning context for absolute elements */
+}
+
+.add-product-container h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+
+/* Form Styles */
+
+.add-product-container form {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Positioning context for absolute elements */
+}
+
+.add-product-container form input,
+.add-product-container form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    /* Light gray background */
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-container form input:focus,
+.add-product-container form textarea:focus {
+    outline: none;
+    background-color: #008080;
+    /* Light blue background on focus */
+}
+
+.add-product-container form textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.add-product-container form button {
+    width: 200px;
+    /* Set button width */
+    padding: 15px;
+    background-color: #008080;
+    /* Green button background */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    /* Add margin at the top */
+    margin-right: 275px;
+}
+
+.add-product-container form button:hover {
+    background-color: #006666;
+    /* Darker green on hover */
+}
+
+
+/* Image Preview Styles */
+
+.preview-image {
+    display: block;
+    margin: 20px auto;
+    /* Center the image */
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

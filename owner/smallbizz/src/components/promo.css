@@ -1,0 +1,32 @@
+.promo-form-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff;
+}
+
+.promo-form-container h5 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.promo-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-form-container form .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.promo-form-container form button {
+    width: 200px;
+    margin-top: 20px;
+}

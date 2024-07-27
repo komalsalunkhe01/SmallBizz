@@ -1,0 +1,4 @@
+.App {
+    position: relative;
+    /* Ensure z-index works */
+}

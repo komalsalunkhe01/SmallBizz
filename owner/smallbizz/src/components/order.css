@@ -1,0 +1,42 @@
+/* Assuming you have a CSS file named "Order.css" */
+
+.orders {
+    margin: 20px 20px 20px 270px;
+    /* Margin shorthand: top right bottom left */
+}
+
+.orders h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders th,
+.orders td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.orders th {
+    background-color: #f2f2f2;
+}
+
+.orders ul {
+    padding-left: 20px;
+}
+
+.orders li {
+    margin-bottom: 5px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}

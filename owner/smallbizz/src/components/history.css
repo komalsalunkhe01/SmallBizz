@@ -1,0 +1,48 @@
+.history {
+    margin: 20px 20px 20px 250px;
+    /* Margin shorthand: top right bottom left */
+}
+
+.history h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history th,
+.history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.history td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    /* Adjust this value as needed */
+}
+
+.history th {
+    background-color: #f2f2f2;
+}
+
+.history ul {
+    padding-left: 20px;
+}
+
+.history li {
+    margin-bottom: 5px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
